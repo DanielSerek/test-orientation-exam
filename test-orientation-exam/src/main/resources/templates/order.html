@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+</head>
+<body>
+    <h2>Order details</h2>
+    <p th:text="'Name:'+${order.name}"></p>
+    <p th:text="'Address:'+${order.address}"></p>
+    <p th:text="'Base:'+${order.base}"></p>
+    <p th:text="'Topping:'+ ${order.topping}"></p>
+</body>
+</html>
